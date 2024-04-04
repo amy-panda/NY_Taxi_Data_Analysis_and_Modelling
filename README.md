@@ -33,3 +33,4 @@ Compared to the DT model, the MLR model gives a lower value of RMSE for both tra
 - Decision Tree
 
 ## ℹ️ Data Source
+The datase is downloaded from the website of [NYC Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Only the records of Yellow and Green taxi trips are considered in the data analysis and predictive modelling.

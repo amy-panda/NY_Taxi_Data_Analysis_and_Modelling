@@ -17,9 +17,9 @@ The features used to predict the total fare amount of taxi trips include trip di
 
 
 |ML Model                         | RMSE - training set |RMSE - test set 
-|---------------------------------|---------------------|-----------------         
-|Multiple Linear Regression (MLR) |3.0517               |3.0577                       |                     |
+|---------------------------------|---------------------|-----------------                    
 |Decision Tree (DT)               |3.8250               |3.8257
+|Multiple Linear Regression (MLR) |3.0517               |3.0577       
 
 Compared to the DT model, the MLR model gives a lower value of RMSE for both training and test sets. Thusthe MLR model is regarded as a better model to predict the total fare of taxi trips. &nbsp; 
 

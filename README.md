@@ -9,8 +9,7 @@ The flow chart below illustrates the process for data ingestion and preparation 
 - During the week, Thursday and Friday were commonly seen to have the most trips. During the day, 3pm and 6pm were the busiest time for taxi drivers. 
 - Taxi drivers received a tip in majority of the trips, around 70%. In 2.6% of these trips, the driver received a tip of at least $10. 
 - Compared to yellow taxi, green taxi trips had a higher average and median value for trip duration, distance and speed. In contrast, the maximum values for trip duration, distance and speed are all higher during yellow taxi trips. 
-
-
+- Drivers receivd the most money per hour (around $145) when trips lasted less than 5 minutes.
 
 
 ## 🏗 Predictive Models
@@ -19,7 +18,7 @@ The features used to predict the total fare amount of taxi trips include trip di
 
 |ML Model                         | RMSE - training set |RMSE - test set 
 |---------------------------------|---------------------|-----------------         
-|Multiple Linear Regression (MLR) |3.0517               |3.0577
+|Multiple Linear Regression (MLR) |3.0517               |3.0577                       |                     |
 |Decision Tree (DT)               |3.8250               |3.8257
 
 Compared to the DT model, the MLR model gives a lower value of RMSE for both training and test sets. Thusthe MLR model is regarded as a better model to predict the total fare of taxi trips. &nbsp; 
